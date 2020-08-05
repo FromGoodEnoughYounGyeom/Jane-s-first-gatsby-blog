@@ -1,10 +1,10 @@
 ---
 title: 'about'
-date: 2019-1-27 16:21:13
+date: 2020-08-05 16:21:13
 lang: 'en'
 ---
 
-# Your name
+> # 이유리(Jane)
 
 <div align="center">
 
