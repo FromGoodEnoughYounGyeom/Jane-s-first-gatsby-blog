@@ -6,16 +6,16 @@ module.exports = {
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/djanelee`, // Your GitHub account
+    github: `djanelee`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/ddjanelee`, // Your Facebook account
+    facebook: `ddjanelee`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: 'djanelee-netlify-app', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'DJaneLee/Jane-s-first-gatsby-blog', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
