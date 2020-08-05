@@ -6,15 +6,15 @@ module.exports = {
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/DJaneLee`, // Your GitHub account
+    github: `https://github.com/djanelee`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `https://www.facebook.com/profile.php?id=100053559682370`, // Your Facebook account
+    facebook: `https://www.facebook.com/ddjanelee`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'djanelee-netlify-app', // Your disqus-short-name. check disqus.com.
     utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
   },
   configs: {
