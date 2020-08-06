@@ -4,7 +4,7 @@ date: 2020-08-05 16:21:13
 lang: 'en'
 ---
 
-> # 이유리(Jane)
+<span style="color:blue">></span> # 이유리(Jane)
 
 <div align="center">
 
