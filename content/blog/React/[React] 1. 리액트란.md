@@ -1,6 +1,5 @@
 ---
 title: [React] 1. 리액트란?
-date: 2020-12-03 10:08:29
 category: React
 draft: false
 ---
