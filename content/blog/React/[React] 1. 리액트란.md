@@ -5,7 +5,7 @@ category: React
 draft: false
 ---
 
-# 리액트(React.js)란?
+# 리액트(React.js)
 
 > 컴퓨팅에서 리액트(React, React.js 또는 ReactJS)는 **자바스크립트 라이브러리**의 하나로서 사용자 인터페이스를 만들기 위해 사용된다. 페이스북과 개별 개발자 및 기업들 공동체에 의해 유지보수된다.
 
