@@ -1,15 +1,15 @@
 ---
-title: '[React] 1. 리액트란?'
+title: '[React] 리액트란?'
 date: 2020-12-03 10:08:29
 category: React
 draft: false
 ---
 
-# 리액트(React.js)
+## 리액트(React.js)
 
 > 컴퓨팅에서 리액트(React, React.js 또는 ReactJS)는 **자바스크립트 라이브러리**의 하나로서 사용자 인터페이스를 만들기 위해 사용된다. 페이스북과 개별 개발자 및 기업들 공동체에 의해 유지보수된다.
 
-# 개념잡기
+## 개념잡기
 
 JSX, Virtual DOM, 선언형 프로그래밍, Components, State, Props, 단방향데이터플로우
 
@@ -37,7 +37,7 @@ JSX, Virtual DOM, 선언형 프로그래밍, Components, State, Props, 단방향
 
   데이터가 Parent로부터 Child로 흐르며, 데이터의 갱신에 반응하여 뷰가 갱신된다. 그렇기 때문에 디버깅이 용이하며, 타 라이브러리에 비해 안전성이 높다.
 
-# 리액트(React.js)의 장점
+## 리액트(React.js)의 장점
 
 - Component의 가독성이 높으며 효율적으로 재사용이 가능하고 유지보수가 용이
 - Facebook에서 만들었기 때문에 커뮤니티나 자료의 방대함
@@ -46,7 +46,7 @@ JSX, Virtual DOM, 선언형 프로그래밍, Components, State, Props, 단방향
 - 단방향 데이터 바인딩을 통한 디버깅 용이, 다른 라이브러리에 비해 안전성 높음
 - 리액트 네이티브를 활용하여 앱 개발 가능
 
-# 리액트(React.js)의 단점
+## 리액트(React.js)의 단점
 
 - 프레임워크의 MVC와 비교하였을때 V(view)만을 관리한다. 따라서 이외의 기능은 써드파티 라이브러리를 이용하거나 직접 구현해야 한다.
 - IE8 이하의 버전은 지원하지 않는다.
