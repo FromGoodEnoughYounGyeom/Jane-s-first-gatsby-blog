@@ -5,6 +5,8 @@ category: React
 draft: false
 ---
 
+![](./images/UnitTest-Logo.png)
+
 ## React.js Unit Testing
 
 리엑트 유닛 테스팅이란, 컴포넌트를 기능별로 쪼개서 아주 작은 단위로 만든 후 독립적으로 테스팅을 하는것을 의미한다. 단일 책임 원칙에 따라서 한 컴포넌트는 한 가지 역할만 하면 충분하기 때문에 역할 단위로 테스트하는 방법이다. 리액트 어플리케이션 안에 있는 **개별적인 코드 단위가 의도한 대로 동작하는지를 확인하는 방법**이라고 말할 수도 있다. 유닛 테스팅은 부가적인 것이기 때문에 무조건 해야하는것은 아니다. 소규모 개인프로젝트에는 시간낭비가 될수도 있기에 추천하지 않는다.
@@ -21,8 +23,8 @@ draft: false
   <br/>
   <br/>
 
-  > **with react-testing-library, Enzyme and Jest**  
-  > 리액트 공식문서에서 사용을 권장하는 테스팅 라이브러리는 react-testing-library 이다. 대체방안으로 Enzyme이 있으며 좀 더 큰 개념인 Jest는 테스트 프레임워크로 볼 수 있다. enzyme과 jest를 함께 사용할 수도 있다.
+> **with react-testing-library, Enzyme and Jest**  
+> 리액트 공식문서에서 사용을 권장하는 테스팅 라이브러리는 react-testing-library 이다. 대체방안으로 Enzyme이 있으며 좀 더 큰 개념인 Jest는 테스트 프레임워크로 볼 수 있다. enzyme과 jest를 함께 사용할 수도 있다.
 
 <br/>
 
