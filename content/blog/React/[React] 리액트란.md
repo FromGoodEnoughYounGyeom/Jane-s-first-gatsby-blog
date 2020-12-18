@@ -5,7 +5,7 @@ category: React
 draft: false
 ---
 
-![](./images/reactJs.jpg)
+![](./images/reactJs.png)
 
 ## 리액트(React.js)
 
