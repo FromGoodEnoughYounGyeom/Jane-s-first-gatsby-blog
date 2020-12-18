@@ -1,7 +1,7 @@
 module.exports = {
-  title: `Jane's World`,
+  title: `From Good enough YounGyeom`,
   description: `Blog posted about ...`,
-  author: `Jane`,
+  author: `YounGyeom Lee`,
   introduction: `Keep it fresh!`,
   siteUrl: `https://djanelee.netlify.app`, // Your blog site url
   social: {
