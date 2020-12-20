@@ -1,5 +1,5 @@
 module.exports = {
-  title: `From Good enough YounGyeom`,
+  title: `From Good Enough YounGyeom`,
   description: `Blog posted about ...`,
   author: `YounGyeom`,
   introduction: `Keep it fresh!`,
@@ -8,7 +8,7 @@ module.exports = {
     twitter: ``, // Your Twitter account
     github: `djanelee`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: `ddjanelee`, // Your Facebook account
+    facebook: `GoodEnoughYounGyeom`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
