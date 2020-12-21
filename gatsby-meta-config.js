@@ -5,8 +5,8 @@ module.exports = {
   introduction: `Keep it fresh!`,
   siteUrl: `https://djanelee.netlify.app`, // Your blog site url
   social: {
-    instagram: `FromGoodEnoughYounGyeom`, // Your Twitter account
-    github: `djanelee`, // Your GitHub account
+    twitter: ``, // Your Twitter account
+    github: `FromGoodEnoughYounGyeom`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: `GoodEnoughYounGyeom`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
