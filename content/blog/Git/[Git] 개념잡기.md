@@ -1,5 +1,5 @@
 ---
-title: '[Git] 1. 개념잡기'
+title: '[Git] Git'
 date: 2020-08-09 12:08:01
 category: git
 draft: false
