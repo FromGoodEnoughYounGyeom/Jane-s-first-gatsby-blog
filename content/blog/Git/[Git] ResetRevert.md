@@ -69,7 +69,7 @@ $ git revert [되돌리고 싶은 commit hash]
 
 &#128553; 단점 -> 되돌리고 싶은 커밋의 수만큼 불필요한 revert 커밋이 생겨난다.
 
-##### A-2. revert를 위한 커밋을 하나만 생성하고 싶은 경우(working tree와 index에만 변경사항이 적용)
+##### A-2. revert를 위한 커밋을 하나만 생성하고 싶은 경우([workingtree](https://goodenoughyoungyeom.netlify.app/Git/[Git]%20%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0/)와 [index](https://goodenoughyoungyeom.netlify.app/Git/[Git]%20%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0/)에만 변경사항이 적용)
 
 ```sh
 $ git revert --no-commit [되돌리고 싶은 commit의 hash]
