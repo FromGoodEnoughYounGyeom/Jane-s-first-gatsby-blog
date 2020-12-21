@@ -5,7 +5,7 @@ category: git
 draft: false
 ---
 
-아 그래서 git이 뭔데라고 물으신다면...
+![](./images/git_galaxy.png)
 
 ## Git 이란 무엇인가?
 
