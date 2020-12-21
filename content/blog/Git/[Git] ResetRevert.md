@@ -5,6 +5,8 @@ category: git
 draft: false
 ---
 
+![](./images/git_resetRevert.png)
+
 ## 원격 저장소 커밋 히스토리 제어하기
 
 | 명령어   | reset                                                                                                       | revert                                                                                                                               |
@@ -41,7 +43,7 @@ $ git reset --hard HEAD~3
 $ git push -f origin master
 ```
 
-![](./images/gitReset.png)
+![](./images/git_reset.png)
 위의 경우에는 해당 커밋으로 돌리기위해서 6차례의 reset을 진행 후 강제 푸시하였다.
 
 #### &#10071; 이럴때 유용하다
