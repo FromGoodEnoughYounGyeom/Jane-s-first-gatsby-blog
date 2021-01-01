@@ -35,7 +35,7 @@ Git을 설치할때 따라오는 Git Bash나 윈도우 사용자는 명령프롬
 
 ### 영역
 
-![](./images/lifecycle.png)
+![](./images/fixed_lifecycle.png)
 
 - **Working directory(작업영역)**
 
