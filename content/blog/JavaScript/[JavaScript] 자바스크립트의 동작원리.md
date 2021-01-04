@@ -30,7 +30,7 @@ draft: false
 <br/>
 <br/>
 
-![](./images/eventLoop_geyg.png)
+![](./images/eventLoop_geyg2.png)
 
 ## 이벤트루프(Event loop)
 
