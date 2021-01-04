@@ -29,3 +29,12 @@ draft: false
 <br/>
 <br/>
 <br/>
+
+![](./images/eventLoop_geyg.png)
+
+## 이벤트루프(Event loop)
+
+항상 루프를 돌면서 call stack과 callback queue를 확인한다. 그러다 call stack이 빈 상태가 되면, event queue(Task Queue 혹은Callback Queue라고도 지칭함)에 있는 함수를 하나씩 call stack으로 올려주는 것이다.
+<br/>
+<br/>
+<br/>
