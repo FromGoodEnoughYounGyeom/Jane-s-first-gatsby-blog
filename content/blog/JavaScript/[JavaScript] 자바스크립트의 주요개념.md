@@ -60,7 +60,7 @@ draft: false
 <br/>
 <br/>
 
-![](./images/eventLoop_geyg2.png)
+![](./images/javascriptEngine.png)
 
 ## 콜스택(Call stack)
 
@@ -83,7 +83,9 @@ web api에서 비동기 작업들이 실행된 후 **호출되는 콜백함수�
 
 ## 이벤트루프(Event loop)
 
-항상 루프를 돌면서 call stack과 callback queue를 확인한다. 그러다 **call stack이 빈 상태가 되면, event queue(task Queue 혹은 Callback Queue라고도 지칭함)에 있는 함수를 하나씩 call stack으로 올려주는 역할**을 하는 것이다.
+이벤트 루프에 대해 설명하려면 먼저 자바스크립트가 구동되는 환경에 대한 설명을 할 필요가 있다. 자바스크립트 엔진은 단일 호출 스택(싱글스레드)을 사용한다. 그러나 실제 자바스크립트가 구동되는 환경(브라우저, Node.js등)에서는 여러 개의 스레드가 사용된다. 이벤트 루프는 **이러한 구동 환경에서 단일 호출 스택을 사용하는 자바 스크립트 엔진과 상호 연동하기 위해 사용하는 장치**이다.
+이벤트 루프는 항상 루프를 돌면서 call stack과 callback queue를 확인한다. 그러다 **call stack이 빈 상태가 되면, event queue(task Queue 혹은 Callback Queue라고도 지칭함)에 있는 함수를 하나씩 call stack으로 올려주는 역할**을 한다.
+
 <br/>
 <br/>
 <br/>
@@ -102,8 +104,8 @@ web api에서 비동기 작업들이 실행된 후 **호출되는 콜백함수�
 ## 비동기(Asynchronous)
 
 Synchronous/Asynchronous는 호출되는 함수의 작업 완료 여부가 관건이다.
-호출되는 함수의 작업 완료를 호출한 함수가 신경쓰면 Synchronous, **호출되는 함수의 작업 완료를 호출된 함수가 신경쓰면 Asynchronous** 라고 할 수 있다.
-특정 코드의 연산이 끝날 때까지 기다리지 않고 바로 다음 코드를 먼저 실행하는 방식이기도 하다. 다른 주체의 응답 상태와 상관없이 다음 동작을 수행 할 수 있다.
+호출되는 함수의 작업 완료를 호출한 함수가 신경쓰면 [Synchronous](https://goodenoughyoungyeom.netlify.app/Web%20Development/[Web%20Development]%EB%8F%99%EA%B8%B0%EC%99%80%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/#%EB%8F%99%EA%B8%B0synchronous), **호출되는 함수의 작업 완료를 호출된 함수가 신경쓰면 [Asynchronous](https://goodenoughyoungyeom.netlify.app/Web%20Development/[Web%20Development]%EB%8F%99%EA%B8%B0%EC%99%80%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/#%EB%B9%84%EB%8F%99%EA%B8%B0asynchronous)** 라고 할 수 있다.
+특정 코드의 연산이 끝날 때까지 기다리지 않고 바로 다음 코드를 먼저 실행하는 방식이라고 말할수도 있다. 다른 주체의 응답 상태와 상관없이 다음 동작을 수행 할 수 있다.
 <br/>
 <br/>
 
