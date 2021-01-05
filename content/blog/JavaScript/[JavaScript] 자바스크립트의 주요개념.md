@@ -114,3 +114,14 @@ Blocking/NonBlocking은 호출되는 함수가 바로 리턴하느냐 마느냐�
 <br/>
 <br/>
 <br/>
+
+## 참고
+
+- https://prohannah.tistory.com/59
+- https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript
+- https://velog.io/@hidaehyunlee/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
+- https://monsieursongsong.tistory.com/4
+- https://eine.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AA%A8%EB%8D%B8%EA%B3%BC-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84
+- https://deveric.tistory.com/99
+- http://wiki.sys4u.co.kr/
+- https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/
