@@ -5,35 +5,9 @@ category: 'JavaScript'
 draft: false
 ---
 
-# 미리 보기
+## 미리 보기
 
-> ## `프로세스(process)`
->
-> ## `코드(code) 영역`
->
-> ## `데이터(data) 영역`
->
-> ## `스택(stack) 영역`
->
-> ## `힙(heap) 영역`
->
-> ## `스레드(thread)`
->
-> ## `싱글스레드(Single-threaded)`
->
-> ## `콜스택(Call stack)`
->
-> ## `Web API(=Brower API)`
->
-> ## `테스크 큐(task Queue = event Queue)`
->
-> ## `이벤트루프(Event loop)`
->
-> ## `동시성(Concurrent)`
->
-> ## `비동기(Asynchronous)`
->
-> ## `논블로킹(Non Blocking)`
+> `프로세스(process)`,`코드(code) 영역`,`데이터(data) 영역`,`스택(stack) 영역`,`힙(heap) 영역`,`스레드(thread)`,`싱글스레드(Single-threaded)`,`콜스택(Call stack)`,`Web API(=Brower API)`,`테스크 큐(task Queue = event Queue)`,`이벤트루프(Event loop)`,`동시성(Concurrent)`,`비동기(Asynchronous)`,`논블로킹(Non Blocking)`
 
 <br/>
 <br/>
