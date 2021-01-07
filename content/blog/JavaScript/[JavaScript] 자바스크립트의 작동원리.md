@@ -15,7 +15,9 @@ draft: false
 <br/>
 <br/>
 
-&#10067; 그런데 이러한 자바스크립트에서 어떻게 [비동기(Asynchronous)](https://goodenoughyoungyeom.netlify.app/Web%20Development/[Web%20Development]%EB%8F%99%EA%B8%B0%EC%99%80%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/#%EB%B9%84%EB%8F%99%EA%B8%B0asynchronous)적인 작업이 가능한 걸까?
+## &#10067;
+
+그런데 이러한 자바스크립트에서 어떻게 [비동기(Asynchronous)](https://goodenoughyoungyeom.netlify.app/Web%20Development/[Web%20Development]%EB%8F%99%EA%B8%B0%EC%99%80%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC/#%EB%B9%84%EB%8F%99%EA%B8%B0asynchronous)적인 작업이 가능한 걸까?
 
 <br/>
 <br/>
@@ -43,4 +45,6 @@ _따라서 **콜스택에 등록한 함수에서 지나치게 많은 시간을 �
 브라우저는 기본적으로 1초 동안 60개의 프레임(60frames per second)의 속도로 사용자에게 업데이트 내용을 보여주도록 하고 있다. 인간의 눈에 어떠한 애니메이션이 자연스러워 보이기 위해서는 1초 동안 60개의 프레임이 필요하기 때문이다. 그리고 그렇게 하기 위해서는 16.7 밀리 세컨드 동안 한 번의 업데이트가 일어나야 된다.
 <br/>
 
-&#10071; 여기서 잠깐! 16.7밀리 세컨드 동안 한번의 업데이트가 일어나는 브라우저에 비해 우리의 이벤트 루프는 rende r→ Microtask queue → task queue 를 다 도는데 1밀리 세컨드도 걸리지 않는다. 따라서 **이벤트 루프의 속도가 브라우저가 프레임을 업데이트하고 있는 속도보다 훨씬 빠르기 때문에 이벤트 루프는 루프를 순환하면서 매번 render를 들리지 않아도 된다.**
+## &#10071;
+
+여기서 잠깐! 16.7밀리 세컨드 동안 한번의 업데이트가 일어나는 브라우저에 비해 우리의 이벤트 루프는 rende r→ Microtask queue → task queue 를 다 도는데 1밀리 세컨드도 걸리지 않는다. 따라서 **이벤트 루프의 속도가 브라우저가 프레임을 업데이트하고 있는 속도보다 훨씬 빠르기 때문에 이벤트 루프는 루프를 순환하면서 매번 render를 들리지 않아도 된다.**
