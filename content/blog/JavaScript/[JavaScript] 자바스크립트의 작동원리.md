@@ -60,11 +60,21 @@ _따라서 콜스택에 등록한 함수에서 지나치게 많은 시간을 요
 꽤나 복잡한 과정이지만 꼭! 명심해야할 것이 있다.
 <br/>
 
-- 1. 비동기 작업으로 등록되는 작업은 task와 microtask. 그리고 Render 로 구분된다.
-     <br/>
+## 1. 자바스크립트는 싱글스레드 이기 때문에 한번에 한가지 작업만 가능하다. 따라서 비동기 요청은 자바스크립트 엔진을 구동하는 환경, 즉 브라우저나 Node.js가 담당한다.
 
-- 2. microtask는 task보다 먼저 작업이 처리된다.
-     <br/>
+## 2. 비동기로 등록되는 작업은 task, microtask 그리고 Render 로 구분된다.
 
-- 3. microtask는 task보다 우선하지만 때에 따라서 microtask보다 requestAnimationFrame이 먼저 랜더링 될수도 있다.
-     <br/>
+## 3. microtask는 task보다 먼저 작업이 처리된다.
+
+## 4. microtask는 task보다 우선하지만 때에 따라서 microtask보다 requestAnimationFrame이 먼저 랜더링 될수도 있다.
+
+<br/>
+<br/>
+<br/>
+
+## 참고
+
+- https://medium.com/@vdongbin/javascript-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC-single-thread-event-loop-asynchronous-e47e07b24d1c
+- https://prohannah.tistory.com/59
+- https://eine.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AA%A8%EB%8D%B8%EA%B3%BC-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84
+- https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w
