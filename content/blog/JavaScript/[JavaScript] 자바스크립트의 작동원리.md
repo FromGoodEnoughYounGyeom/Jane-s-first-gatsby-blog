@@ -1,5 +1,5 @@
 ---
-title: '[JavaScript] 자바스크립트의 작동원리(runtime Environment)'
+title: '[JavaScript] 자바스크립트의 작동원리(Javascript runtime Environment)'
 date: 2021-01-02 20:08:51
 category: javascript
 draft: false
@@ -56,18 +56,21 @@ _따라서 콜스택에 등록한 함수에서 지나치게 많은 시간을 요
 
 그래서 이벤트 루프는 먼저 렌더를 한번 업데이트 해주고 &#10140; 한 바퀴 돌고 나서(1밀리 세컨드) &#10140; 지정된 시간이 됐다면(16.7밀리 세컨드) &#10140; 렌더 트리 업데이트 &#10140; (그러다가) 마이크로 태스크 큐에 아이템이 쌓이면 promise then, mutation observer 순으로 콜스택으로 보내고 &#10140; (만약 micro task queue에 계속해서 아이템들이 들어온다면 이벤트루프는 계속 이곳에 머무른다)마이크로 태스크 큐가 텅비면 &#10140; 태스크 큐로 와서 한번에 한가지 아이템만 콜 스택으로 보낸 후 더이상 기다리지 않고 루프순환을 재개한다.
 <br/>
-
-꽤나 복잡한 과정이지만 꼭! 명심해야할 것이 있다.
 <br/>
 
-## 1. 자바스크립트는 싱글스레드 이기 때문에 한번에 한가지 작업만 가능하다. 따라서 비동기 요청은 자바스크립트 엔진을 구동하는 환경, 즉 브라우저나 Node.js가 담당한다.
+## 꽤나 복잡한 과정이지만 꼭! 명심해야할 것이 있다.
 
-## 2. 비동기로 등록되는 작업은 task, microtask 그리고 Render 로 구분된다.
+`1. 자바스크립트는 싱글스레드 이기 때문에 한번에 한가지 작업만 가능하다. 따라서 비동기 요청은 자바스크립트 엔진을 구동하는 환경, 즉 브라우저나 Node.js가 담당한다.`
+<br/>
 
-## 3. microtask는 task보다 먼저 작업이 처리된다.
+`2. 비동기로 등록되는 작업은 task, microtask 그리고 Render 로 구분된다.`
+<br/>
 
-## 4. microtask는 task보다 우선하지만 때에 따라서 microtask보다 requestAnimationFrame이 먼저 랜더링 될수도 있다.
+`3. microtask는 task보다 먼저 작업이 처리된다.`
+<br/>
 
+`4. microtask는 task보다 우선하지만 때에 따라서 microtask보다 requestAnimationFrame이 먼저 랜더링 될수도 있다.`
+<br/>
 <br/>
 <br/>
 <br/>
