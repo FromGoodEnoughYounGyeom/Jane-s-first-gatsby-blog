@@ -1,7 +1,7 @@
 ---
 title: '[JavaScript] 자바스크립트의 작동원리(Javascript runtime Environment)'
 date: 2021-01-02 20:08:51
-category: javascript
+category: 'JavaScript'
 draft: false
 ---
 
