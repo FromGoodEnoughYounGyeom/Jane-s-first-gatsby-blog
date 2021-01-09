@@ -32,7 +32,6 @@ draft: false
 2. 어떤 이벤트에 의해 호출되어지는 함수라고도 할 수 있다.
 
 <br/>
-<br/>
 
 그런데 한 로직에 콜백 함수를 여러번 사용하면 이것이 콜백 체인이 되고 지나친 콜백 체인은 `Callback Hell`을 유발할 수 있다.
 <br/>
@@ -40,9 +39,9 @@ draft: false
 
 ## 예제
 
-![](./images/callbackHellExample.png)
-![](./images/callbackHellExample_2.png)
-
+![](./images/callbackHellExample.PNG)
+![](./images/callbackHellExample_2.PNG)
+이러한 `콜백 지옥`은 코드를 한눈에 이해하기 어렵다. 따라서 에러 발생으로 인한 디버깅도 어렵다. 또한 유지 보수도 힘들게 만든다.
 <br/>
 <br/>
 <br/>
