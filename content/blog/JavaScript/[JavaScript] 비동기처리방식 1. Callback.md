@@ -16,14 +16,13 @@ draft: false
 <br/>
 
 > 자바스크립트 자체는 **Single-threaded**한 언어이자 **synchronous**이다.
-> <br/> > <br/>
 
 따라서 이러한 자바스크립트의 특성에 따라 코드를 실행할 때 상위 코드의 결과값으로 실행되는 코드가 아님에도 순차적으로 진행되어 때에 따라 원치 않는 결과가 나올 수도 있다.
 이럴 때 콜백 함수를 사용하면 특정 로직이 끝났을 때만 원하는 동작을 실행시킬 수 있다.
 <br/>
 <br/>
 
-# 콜백함수란
+# Callback & Callback Hell
 
 `callback`은 문자그대로 called at the back 이다.
 <br/>
@@ -35,8 +34,65 @@ draft: false
 <br/>
 <br/>
 
-그런데 한 로직에 콜백 함수를 여러번 사용하면 이것이 콜백 체인이 되고 지나친 콜백 체인은 `콜백 지옥`을 유발할 수 있다.
+그런데 한 로직에 콜백 함수를 여러번 사용하면 이것이 콜백 체인이 되고 지나친 콜백 체인은 `callback Hell`을 유발할 수 있다.
 <br/>
 <br/>
-<br/>
-<br/>
+
+## 예제
+
+```sh
+class UserStorage {
+  loginUser(id, password, onSuccess, onError) {
+    setTimeout(() => {
+      if (
+        (id === "jane" && password === "dream") ||
+        (id === "coder" && password === "academy")
+      ) {
+        onSuccess(id);
+      } else {
+        onError(new Error("not found"));
+      }
+    }, 2000);
+  }
+  getRoles(user, onSuccess, onError) {
+    setTimeout(() => {
+      if (user === "jane") {
+        onSuccess({ name: "jane", role: "admin" });
+      } else {
+        onError(new Error("no access"));
+      }
+    }, 1000);
+  }
+}
+
+const userStorage = new UserStorage();
+const id = prompt("enter your id");
+const password = prompt("enter your password");
+userStorage.loginUser(
+  id,
+  password,
+  (user) => {
+    userStorage.getRoles(
+      user,
+      (userWithRole) => {
+        alert(
+          `Hello ${userWithRole.name}, you have a ${userWithRole.role} role`
+        );
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
+  },
+  (error) => {
+    console.log(error);
+  }
+);
+```
+
+## 참고
+
+- https://morioh.com/p/bb2f95f40ce3
+- https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/
+- https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w
+- https://satisfactoryplace.tistory.com/18
