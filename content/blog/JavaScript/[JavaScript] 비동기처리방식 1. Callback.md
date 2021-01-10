@@ -17,8 +17,7 @@ draft: false
 
 > 자바스크립트 자체는 **Single-threaded**한 언어이자 **synchronous**이다.
 
-따라서 이러한 자바스크립트의 특성에 따라 코드를 실행할 때 상위 코드의 결과값으로 실행되는 코드가 아님에도 순차적으로 진행되어 때에 따라 원치 않는 결과가 나올 수도 있다.
-이럴 때 콜백 함수를 사용하면 특정 로직이 끝났을 때만 원하는 동작을 실행시킬 수 있다.
+이에따라 자바스크립트에서 이뤄지는 비동기(Asynchronous) 작업은 `web API` 가 담당한다.
 <br/>
 <br/>
 
@@ -34,14 +33,28 @@ draft: false
 <br/>
 
 그런데 한 로직에 콜백 함수를 여러번 사용하면 이것이 콜백 체인이 되고 지나친 콜백 체인은 `Callback Hell`을 유발할 수 있다.
+<br/>
 예를들어 웹 서비스를 개발하다 보면 서버에서 데이터를 받아와 화면에 표시하기까지 인코딩, 사용자 인증 등을 처리해야 하는 경우가 있다. 만약 이 모든 과정을 비동기로 처리해야 한다고 하면 위와 같이 콜백 안에 콜백을 계속 무는 형식으로 코딩을 하게된다. 이러한 코드 구조는 가독성도 떨어지고 로직을 변경하기도 어렵다. 이와 같은 코드 구조를 콜백 지옥이라고 한다.
 <br/>
 <br/>
 
-## 예제
+## Callback Hell 예제
 
+백엔드 서버와 통신하여 로그인을 처리하는 로직을 예시로 가져왔다.(from [Dream Coding](https://www.youtube.com/watch?v=s1vpVCrT8f4&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=11)) 여기서 setTimeout 함수는 실제 데이터와 통신하는 비동기 처리 로직이다.
 ![](./images/callbackHellExample.PNG)
 ![](./images/callbackHellExample_2.PNG)
+<br/>
+
+위 코드의 기본적인 flow 는 아래와 같다.
+
+1. id와 pw를 받아옴
+2. 서버에 로그인
+3. 사용자의 역할을 다시 요청해서 받아옴
+4. 사용자의 이름과 역할이 들어있는 객체 출력
+
+콜백 함수 안에서 다른 함수를 호출하고 또 다른 콜백을 전달하고 호출하는 대표적인 `콜백지옥`의 예시를 보여주고 있다.
+<br/>
+
 이러한 `콜백 지옥`은 코드를 한눈에 이해하기 어렵다. 따라서 에러 발생으로 인한 디버깅도 어렵다. 또한 유지 보수도 힘들게 만든다.
 <br/>
 <br/>
@@ -62,3 +75,4 @@ draft: false
 - https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/
 - https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w
 - https://satisfactoryplace.tistory.com/18
+- https://velog.io/@hayyim0626/TIL-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC%EC%99%80-Callback-%ED%95%A8%EC%88%98
