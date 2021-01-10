@@ -47,3 +47,9 @@ async function 함수명(){
 ![](./images/await_promise.PNG)
 
 `콜백지옥`이 떠오른다.
+<br/>
+<br/>
+
+## 2. await을 사용하여 수정했을 경우
+
+![](./images/await.PNG)
