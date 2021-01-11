@@ -1,6 +1,6 @@
 ---
-title: I can do it!
+title: 'I can do it!'
 date: 2020-08-07 16:08:04
-category: essay
+category: 'Type_Script'
 draft: false
 ---
