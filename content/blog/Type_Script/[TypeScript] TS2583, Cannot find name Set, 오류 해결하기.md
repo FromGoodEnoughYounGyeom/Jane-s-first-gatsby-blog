@@ -13,7 +13,7 @@ draft: false
 <br/>
 <br/>
 
-![](./images/typescript_error_TS2583.png)
+![](./images/typescript_error_TS2583_2.png)
 
 자꾸만 `TS2583` 오류가 났다.
 <br/>
@@ -22,7 +22,7 @@ draft: false
 <br/>
 <br/>
 
-![](./images/typescript_error_answer_1-1.png)
+![](./images/typescript_error_answer_1.png)
 
 transpiler를 태울 webpack이 필요한데 그 config파일과 TypeScript 설정파일인 `tsconfig.json`파일을 생성해준다.
 <br/>
