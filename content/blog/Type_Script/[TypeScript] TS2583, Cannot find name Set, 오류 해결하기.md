@@ -1,5 +1,5 @@
 ---
-title: '[TypeScript] TS2583, Cannot find name 'Set', 오류 해결하기'
+title: '[TypeScript] TS2583, Cannot find name Set, 오류 해결하기'
 date: 2021-01-11 12:08:51
 category: 'Type_Script'
 draft: false
