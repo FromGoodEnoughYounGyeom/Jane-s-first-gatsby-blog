@@ -13,7 +13,7 @@ draft: false
 <br/>
 <br/>
 
-![](./images/typescript_error_TS2583_2.png)
+![](./images/typescript_error_TS2583_3.png)
 
 자꾸만 `TS2583` 오류가 났다.
 <br/>
@@ -29,7 +29,7 @@ transpiler를 태울 webpack이 필요한데 그 config파일과 TypeScript 설�
 <br/>
 
 ![](./images/typescript_error_answer_2.png)
-![](./images/typescript_error_answer_4.png)
+![](./images/typescript_error_answer_33.png)
 <br/>
 
 위와같이 필요한 npm 모듈들을 설치한다.
