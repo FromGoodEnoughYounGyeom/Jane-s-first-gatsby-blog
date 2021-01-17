@@ -22,6 +22,9 @@ async function 함수명(){
 }
 ```
 
+1. function 앞에 `async`를 붙이고
+2. 비동기 작업을 하는 함수에 `await`을 붙이면 된다.
+
 # async
 
 ## 1. 기존 Promise 방식으로 처리할 경우
@@ -53,3 +56,16 @@ async function 함수명(){
 ## 2. await을 사용하여 수정했을 경우
 
 ![](./images/await.PNG)
+
+자바스크립트는 `await` 를 만나면 프라미스가 처리될 때까지 기다린다. 결과는 그 이후 반환된다. 프라미스가 처리되기를 기다리는 동안에 다른 일(다른 스크립트 실행, 이벤트 처리 등)을 할 수 있기 때문에, CPU 리소스가 낭비되지 않는다.
+<br/>
+
+`await`은 `promise.then` 보다 좀 더 세련되게 프라미스의 `result` 값을 얻을 수 있도록 해주는 문법이다. `promise.then` 보다 가독성이 좋고 쓰기도 좋다.
+<br/>
+<br/>
+<br/>
+
+## 참고
+
+- https://github.com/JaeYeopHan/typescript_playground
+- https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w
