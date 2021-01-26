@@ -17,13 +17,16 @@ draft: false
 
 > 자바스크립트 자체는 **Single-threaded**한 언어이자 **synchronous**이다.
 
-이에따라 자바스크립트에서 이뤄지는 비동기(Asynchronous) 작업은 `web API` 가 담당한다.
+그러나 자바스크립트 호스트 환경이 제공하는 여러 함수를 사용하면 비동기(asynchronous) 동작을 스케줄링 할 수 있다. 원하는 때에 동작이 시작하도록 할 수 있다는 뜻이다.
 <br/>
 <br/>
 
 # Callback & Callback Hell
 
 `callback`은 문자그대로 called at the back 이다.
+<br/>
+
+무언가를 비동기적으로 수행하는 함수는 함수 내 동작이 모두 처리된 후 실행되어야 하는 함수가 들어갈 `콜백`을 인수로 반드시 제공해야 한다.
 <br/>
 <br/>
 
