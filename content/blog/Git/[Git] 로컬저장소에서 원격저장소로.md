@@ -12,19 +12,47 @@ draft: false
 ### 1-1. New 버튼을 눌러 원격저장소 생성페이지로 간다.
 
 ![](./images/local-remote-connect.png)
+<br/>
+<br/>
 
 ### 1-2. 원격저장소의 주소로 쓰일 이름을 지정한 뒤 생성한다.
 
 ![](./images/local-remote-createrepository.png)
+<br/>
+<br/>
 
 ### 1-3. 해당부분을 클릭해 원격저장소의 주소를 복사한다.
 
 ![](./images/local-remote-remoterepository.png)
+<br/>
+<br/>
 
-## 2. VScode 내에서 원격저장소와 연결하고 싶은 폴더를 열고 아래와 같이 Git init을 실행한다.
+## 2. VScode 내에서 원격저장소와 연결하고 싶은 폴더를 열고 터미널에서 Git init을 실행한다.
 
 ![](./images/local-remote-vscode-terminal.png)
+<br/>
+<br/>
 
 ## 3. 터미널에서 원격저장소 주소를 연결하고 VsCode내의 왼쪽 세번째에 위치하는 Source Control에서 Commit name을 작성한다.
 
 ![](./images/local-remote-vscode-commitname.png)
+<br/>
+<br/>
+
+## 4. Source Control에서 Commit name을 작성 후 해당버튼을 누르면 commit 상태가 된다.
+
+![](./images/local-remote-vscode-commit.png)
+<br/>
+<br/>
+
+## 5. 주황색 표시된 부분을 누르면 Push를 할 수 있다. Push를 하면 원격저장소에 새로운 branch를 만들거냐고 묻는데 ok해주면 된다.
+
+![](./images/local-remote-vscode-push.png)
+![](./images/local-remote-vscode-push_newbranch.png)
+<br/>
+<br/>
+
+## 6. 원격저장소에 가서 해당 내용을 확인해볼 수 있다.
+
+![](./images/local-remote-vscode-new.png)
+<br/>
