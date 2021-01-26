@@ -5,18 +5,26 @@ category: git
 draft: false
 ---
 
-> VsCode를 사용하여 쉽게 commit과 push가 가능하도록 로컬저장소와 원격저장소를 연결시켜보자.
+`VsCode`를 사용하여 `Github`에 쉽게 `push`가 가능하도록 로컬저장소와 원격저장소를 연결시켜보자.
 
-## 1. 먼저 깃허브페이지에서 원격저장소를 생성한다.
+## 1. Github에서 원격저장소를 생성한다.
+
+### 1-1. New 버튼을 눌러 원격저장소 생성페이지로 간다.
 
 ![](./images/local-remote-connect.png)
 
-# &#10132;
+### 1-2. 원격저장소의 주소로 쓰일 이름을 지정한 뒤 생성한다.
 
 ![](./images/local-remote-createrepository.png)
 
-# &#10132;
+### 1-3. 해당부분을 클릭해 원격저장소의 주소를 복사한다.
 
 ![](./images/local-remote-remoterepository.png)
 
-# &#10132;
+## 2. VScode 내에서 원격저장소와 연결하고 싶은 폴더를 열고 아래와 같이 Git init을 실행한다.
+
+![](./images/local-remote-vscode-terminal.png)
+
+## 3. 터미널에서 원격저장소 주소를 연결하고 VsCode내의 왼쪽 세번째에 위치하는 Source Control에서 Commit name을 작성한다.
+
+![](./images/local-remote-vscode-commitname.png)
