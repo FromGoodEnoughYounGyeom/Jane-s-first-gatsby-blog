@@ -33,26 +33,26 @@ draft: false
 <br/>
 <br/>
 
-## 3. 터미널에서 원격저장소 주소를 연결하고 VsCode내의 왼쪽 세번째에 위치하는 Source Control에서 Commit name을 작성한다.
+## 3. 터미널에서 깃명령어 + 원격저장소 주소를 쳐서 연결하고 VsCode내의 왼쪽 세번째에 위치하는 Source Control에서 Commit name을 작성한다.
 
 ![](./images/local-remote-vscode-commitname.png)
 <br/>
 <br/>
 
-## 4. Source Control에서 Commit name을 작성 후 해당버튼을 누르면 commit 상태가 된다.
+## 4. Commit name을 작성 후 해당버튼을 누르면 commit 상태가 된다.
 
 ![](./images/local-remote-vscode-commit.png)
 <br/>
 <br/>
 
-## 5. 주황색 표시된 부분을 누르면 Push를 할 수 있다. Push를 하면 원격저장소에 새로운 branch를 만들거냐고 묻는데 ok해주면 된다.
+## 5. 주황색 표시된 부분을 누르면 Push 버튼이 있는 창이 열린다. 클릭하면 원격저장소에 새로운 branch를 만들거냐고 묻는데 ok해주면 된다.
 
 ![](./images/local-remote-vscode-push.png)
 ![](./images/local-remote-vscode-push_newbranch.png)
 <br/>
 <br/>
 
-## 6. 원격저장소에 가서 해당 내용을 확인해볼 수 있다.
+## 6. 성공적으로 로컬의 파일이 올라간 것을 원격저장소에서 확인할 수 있다.
 
 ![](./images/local-remote-vscode-new.png)
 <br/>
