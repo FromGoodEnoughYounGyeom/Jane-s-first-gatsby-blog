@@ -1,11 +1,11 @@
 ---
 title: '[React] 리액트 라우터(react-router)'
-date: 2020-03-26 10:08:29
+date: 2021-03-26 10:08:29
 category: React
 draft: false
 ---
 
-## Table of Contents
+## 목차
 
 ```toc
 exclude: Table of Contents
@@ -44,6 +44,8 @@ React Router는 1. Web용 2. Native용이 존재한다. Web용을 설치해보�
 ```sh
 npm i react-router-dom
 ```
+<br/>
+<br/>
 
 ### React Router component 사용하기
 
@@ -62,6 +64,7 @@ react-router-dom 라이브러리에는 많은 컴포넌트가 존재한다. 그 
 현재 주소창의 경로가 /about 인경우 About 이라는 컴포넌트를 보여준다. 일반적으로 현재 주소창의 URL 경로에 따라 특정 컨텐츠를 보여주거나 숨기기 위해서 사용될 수 있다. 
 
 - Router : `<Route>`와 `<Link>`컴포넌트가 함께 유기적으로 동작하도록 묶어주는데 사용한다. `<Route>`와 `<Link>` 컴포넌트는 DOM 트리 상에서 항상 `<Router>`를 공통 상위 컴포넌트로 가져야한다.
+
 ```sh
 <Router>
 
@@ -73,7 +76,10 @@ react-router-dom 라이브러리에는 많은 컴포넌트가 존재한다. 그 
 
 </Router>
 ```
+
 React Router를 사용하는 어플리케이션은 위와 같은 구조를 가지게 된다. 실제 프로젝트에서는 위 컴포넌트들이 여러 파일에 걸쳐서 흩어져 있을 수도 있다.
+<br/>
+<br/>
 
 ### React Router로 라우팅 구현 
 
@@ -149,6 +155,7 @@ export default App;
 ```
 
 마지막으로 `<Router>` 컴포넌트를 사용해 전체를 감싸준다. 위와같이 App.js 에서 `<Route>`와  `<Link>`전체를 감싸도 되고 
+<br/>
 
 index.js 로 가서 `<App />` 전체를 감싸도 된다.
 
@@ -167,3 +174,9 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+## Reference
+
+- [생활코딩](https://www.youtube.com/watch?v=WLdbsl9UwDc)
+
+- [Engineering blog by Dale Seo](https://www.daleseo.com/react-router-basic/)

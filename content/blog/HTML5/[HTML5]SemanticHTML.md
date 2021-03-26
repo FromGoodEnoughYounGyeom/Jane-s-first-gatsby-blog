@@ -7,7 +7,7 @@ draft: false
 
 ![](./images/html5.png)
 
-## Table of Contents
+## 목차
 
 ```toc
 exclude: Table of Contents
