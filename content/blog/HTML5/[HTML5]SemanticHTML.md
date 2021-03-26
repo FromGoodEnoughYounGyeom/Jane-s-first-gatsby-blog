@@ -1,6 +1,6 @@
 ---
-title: '[HTML5] Semantic 한 HTML 만들기'
-date: 2021-03-07 11:08:25
+title: '[HTML5] Semantic HTML 작성하기'
+date: 2021-03-07 12:03:25
 category: HTML5
 draft: false
 ---
@@ -15,7 +15,7 @@ from-heading: 2
 to-heading: 6
 ```
 
-## 시맨틱 요소(Semantic Elements)?
+## 시맨틱 요소(Semantic Elements)
 
 시맨틱 요소(Semantic Elements)는 의미가 있는 요소라는 뜻이다. 따라서 시맨틱 요소를 고려하여 만든 html은 tag의 이름만 보고도 tag 가 html 안에서 어떠한 역할을 수행하는지 브라우저와 개발자 모두 쉽게 알 수 있다.
 
@@ -55,3 +55,5 @@ HTML5의 semantic elements 주요 리스트를 살펴보자.
 - [웹마스터 가이드](https://searchadvisor.naver.com/guide/seo-basic-intro)
 
 - [bono's blog](https://blueshw.github.io/2020/05/09/know-html-semantic-elements/#unavu)
+
+- [joker's room](https://m.blog.naver.com/PostView.nhn?blogId=heartflow89&logNo=221170465007&proxyReferer=https:%2F%2Fwww.google.com%2F)
