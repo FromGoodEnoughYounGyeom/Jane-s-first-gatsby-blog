@@ -5,7 +5,7 @@ category: React
 draft: false
 ---
 
-## 목차
+# 목차
 
 ```toc
 exclude: Table of Contents
@@ -41,6 +41,7 @@ React Router는 위의 문제점을 해결하기 위해 사용되고 있는 네�
 ### React Router 설치
 
 React Router는 1. Web용 2. Native용이 존재한다. Web용을 설치해보자.
+
 ```sh
 npm i react-router-dom
 ```

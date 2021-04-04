@@ -5,8 +5,7 @@ category: React
 draft: false
 ---
 
-## 목차
-
+# 목차
 ```toc
 exclude: Table of Contents
 from-heading: 2
@@ -22,12 +21,12 @@ to-heading: 6
 아래와 같이 `<Switch>` 컴포넌트로 모든 `<Route>` 컴포넌트를 묶어주면 `<Route>` 컴포넌트 중에 매치가 되는 제일 첫번째 컴포넌트만 화면에 보여주고 다른 것들은 무시된다. 
 ```sh
 <main>
-        <Switch>
-          <Route exact path = "/" component={Home} />
-		  <Route path="/about/:category" component={About}/>
-          <Route path="/about" component={About} />
-          <Route component={NotFound} />
-        </Switch>
+    <Switch>
+        <Route exact path = "/" component={Home} />
+		<Route path="/about/:category" component={About}/>
+        <Route path="/about" component={About} />
+        <Route component={NotFound} />
+    </Switch>
 </main>
 ```
 
