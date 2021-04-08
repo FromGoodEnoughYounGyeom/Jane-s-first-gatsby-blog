@@ -1,5 +1,5 @@
 ---
-title: '[JavaScript] Map 함수'
+title: '[JavaScript] map() 메서드 '
 date: 2021-04-08 10:08:29
 category: 'JavaScript'
 draft: false
@@ -13,7 +13,7 @@ from-heading: 2
 to-heading: 6
 ```
 
-## Map 함수란?
+## map
 
 `map()` 은 어떤 배열을 다른 형태의 배열로 재생산할때 사용하는 반복문이다. 배열의 `각 요소들`에게 `일괄적`으로 `함수를 적용`하고 싶을 때 사용한다.
 <br/>
@@ -23,7 +23,7 @@ to-heading: 6
 
 > 배열.map((요소, 인덱스, 배열) => { return 요소 });
 
-## Map 함수의 3가지 매개변수
+## map method의 3가지 매개변수
 
 현재요소로 쓰일 value를 제외하고 나머지는 필수입력 사항이 아니다.
 
