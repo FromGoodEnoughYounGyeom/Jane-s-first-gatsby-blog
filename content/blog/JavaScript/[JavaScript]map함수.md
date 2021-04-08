@@ -19,6 +19,8 @@ to-heading: 6
 <br/>
 
 > array.map(callbackFunction(currenValue, index, array), thisArg)
+> <br/>
+
 > 배열.map((요소, 인덱스, 배열) => { return 요소 });
 
 ## Map 함수의 3가지 매개변수
@@ -57,7 +59,7 @@ fruitsName 함수는 return 값으로 fruits 함수에 속한 과일들의 이�
 
 ![](./images/map_console.png)
 
-### 연산자추가
+### 연산자 추가
 
 ![](./images/map_plus.png)
 
