@@ -1,6 +1,6 @@
 ---
-title: '[JavaScript] 배열 함수 filter()'
-date: 2021-04-08 14:08:29
+title: '[JavaScript] 배열 함수  '
+date: 2021-04-08 16:08:29
 category: 'JavaScript'
 draft: false
 ---
@@ -13,12 +13,17 @@ from-heading: 2
 to-heading: 6
 ```
 
-## filter
+## reduce
 
-`filter()` 는 배열 각 요소에 결과값이 true인 요소만을 모아서 새로운 배열을 반환하는 메서드이다. 요소들을 특정조건에 걸러지게 만드는 것이 목적이다.
+`reduce()` 는 `map()`,`filter()`,`find()` 모든 메서드를 대체할 수 있는 유연하고 강력한 메서드이다. `map()`,`filter()`,`find()`로 구현할 수 있는 문제라면 `reduce()`로도 구현할 수 있다.
+reduce()의 콜백함수에서 리턴되는 값은 누적된 결과값이다.
+
 <br/>
 
-## filter method의 3가지 매개변수
+> 배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과 }, 초기값);
+
+
+## reduce method의 3가지 매개변수
 
 현재요소로 쓰일 value를 제외하고 나머지는 필수입력 사항이 아니다.
 

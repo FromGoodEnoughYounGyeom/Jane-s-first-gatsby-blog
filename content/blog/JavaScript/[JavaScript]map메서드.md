@@ -1,5 +1,5 @@
 ---
-title: '[JavaScript] map() 메서드 '
+title: '[JavaScript] 배열 함수 map() '
 date: 2021-04-08 10:08:29
 category: 'JavaScript'
 draft: false
